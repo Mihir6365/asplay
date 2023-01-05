@@ -52,7 +52,7 @@ export const Contact = () => {
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   <h2>Get In Touch</h2>
-                  <form onSubmit={handleSubmit} name="contact" netlify>
+                  <form onSubmit={handleSubmit}>
                     <Row>
                       <Col size={12} sm={6} className="px-1">
                         <input type="text" placeholder="First Name" />
@@ -68,7 +68,7 @@ export const Contact = () => {
                       </Col>
                       <Col size={12} className="px-1">
                         <textarea rows="6" placeholder="Message"></textarea>
-                        <button type="submit"><span>{buttonText}</span></button>
+                        <button id="contact-submit" type="submit"><span>{buttonText}</span></button>
                       </Col>
                       {
                         status.message &&
