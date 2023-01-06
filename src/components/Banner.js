@@ -1,7 +1,7 @@
 import 'animate.css';
 import { useEffect, useState } from "react";
 import { Col, Container, Nav, Row } from "react-bootstrap";
-import { ArrowRightCircle, HandIndex } from 'react-bootstrap-icons';
+import { ArrowRightCircle } from 'react-bootstrap-icons';
 import TrackVisibility from 'react-on-screen';
 import headerImg from "../assets/img/header-img.svg";
 
@@ -12,12 +12,12 @@ export const Banner = () => {
 
   const [, setIndex] = useState(1);
   const toRotate = ["make a website", "make an application", "do search engine optimization"];
-  const period = 1000;
+
 
   useEffect(() => {
     let ticker = setInterval(() => {
       tick();
-    }, 500);
+    }, 100);
 
     return () => { clearInterval(ticker) };
   })
@@ -52,7 +52,7 @@ export const Banner = () => {
           <Col xs={12} md={6} xl={7}>
             <TrackVisibility>
               {({ isVisible }) =>
-                <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+                <div className={isVisible ? "animate__animated" : ""}>
                   <span className="tagline">Welcome to Asplay!</span>
                   <h1>{`We can `} <span className="txt-rotate" dataperiod="1000" data-rotate='[ "make a website", "make an application", "do search engine optimization" ]'><span className="wrap">{text}</span></span></h1>
                   <p>We can make all kinds of websites and mobile applications for you, redesign your existing website or improve your reach by SEO</p>
@@ -66,7 +66,7 @@ export const Banner = () => {
           <Col xs={12} md={6} xl={5}>
             <TrackVisibility>
               {({ isVisible }) =>
-                <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
+                <div className={isVisible ? "animate__animated" : ""}>
                   <img src={headerImg} alt="Header Img" />
                 </div>}
             </TrackVisibility>
