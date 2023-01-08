@@ -21,7 +21,7 @@ export const Contact = () => {
 
     setButtonText("Sending...");
 
-    let response = await fetch("https://dead-pear-lion-shoe.cyclic.app/submit", {
+    let response = await fetch("https://dead-pear-lion-shoe.cyclic.app/contact", {
       method: 'POST',
       headers: {
         "Content-Type": "application/json",

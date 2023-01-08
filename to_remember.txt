@@ -16,3 +16,13 @@ Why do you need a website
 How to expand your online reach
 SEO factors to consider
 How to make a website with coding
+
+
+bugs and TODO:
+Newsletter responsiveness
+facebook and linkedin icon
+adding logo header and footer
+adding blog page
+adding services page
+flicker on projects part tab 2 and tab 3
+Newsletter funcionality
