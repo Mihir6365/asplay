@@ -1,21 +1,18 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import './App.css';
-import { Banner } from "./components/Banner";
-import { Contact } from "./components/Contact";
-import { Footer } from "./components/Footer";
-import { NavBar } from "./components/NavBar";
-import { Projects } from "./components/Projects";
+import Main from './components/Main';
 
 function App() {
   return (
-    <div className="App">
-      <NavBar />
-      <Banner />
-      <Projects />
-      <Contact />
-      <Footer />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Main />} />
+        {/* <Route path="*" element={<Error />} /> */}
+      </Routes>
+    </Router>
   );
 }
+
 
 export default App;
