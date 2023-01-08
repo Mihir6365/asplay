@@ -34,7 +34,7 @@ export const NavBar = () => {
     <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
       <Container>
         <Navbar.Brand href="/">
-          <img src={logo} alt="Logo" />
+          {/* <img src={logo} alt="ASPLAY" /> */}
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
           <span className="navbar-toggler-icon"></span>
@@ -42,14 +42,14 @@ export const NavBar = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
             <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
-            <Link to="/blog" className={activeLink === 'blog' ? 'external_link active navbar-link' : 'external_link navbar-link'} onClick={() => onUpdateActiveLink('blog')}>Blog</Link>
+            {/* <Link to="/blog" className={activeLink === 'blog' ? 'external_link active navbar-link' : 'external_link navbar-link'} onClick={() => onUpdateActiveLink('blog')}>Blog</Link>
             <Nav.Link href="#project" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
-            <Link to="/services" className={activeLink === 'services' ? 'external_link active navbar-link' : 'external_link navbar-link'} onClick={() => onUpdateActiveLink('services')}>Services</Link>
+            <Link to="/services" className={activeLink === 'services' ? 'external_link active navbar-link' : 'external_link navbar-link'} onClick={() => onUpdateActiveLink('services')}>Services</Link> */}
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="/#"><img src={navIcon1} alt="" /></a>
-              <a href="/#"><img src={navIcon2} alt="" /></a>
+              {/* <a href="/#"><img src={navIcon1} alt="" /></a>
+              <a href="/#"><img src={navIcon2} alt="" /></a> */}
               <a href="https://www.instagram.com/_asplay_/" target="_blank"><img src={navIcon3} alt="Instagram" /></a>
             </div>
             <HashLink to='#connect'>

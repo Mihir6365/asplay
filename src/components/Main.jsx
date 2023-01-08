@@ -10,7 +10,7 @@ export default function Main() {
     <div className="App">
       <NavBar />
       <Banner />
-      <Projects />
+      {/* <Projects /> */}
       <Contact />
       <Footer />
     </div>
