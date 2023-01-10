@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import './App.css';
+import Admin from './components/Admin';
 import Blog from './components/Blog';
 import Error from './components/Error';
 import Main from './components/Main';
@@ -12,6 +13,7 @@ function App() {
         <Route path="/" element={<Main />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/services" element={<Services />} />
+        <Route path="/admin" element={<Admin />} />
         <Route path="*" element={<Error />} />
       </Routes>
     </Router>

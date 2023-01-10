@@ -1,6 +1,6 @@
-import { Alert, Col, Row } from "react-bootstrap";
+import { Col, Row } from "react-bootstrap";
 
-export const Newsletter = ({ status, message }) => {
+export const Newsletter = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
