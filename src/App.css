@@ -107,6 +107,7 @@ nav.navbar.scrolled {
 }
 nav.navbar a.navbar-brand {
   width: 9%;
+  min-width: 80px;
 }
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
@@ -648,4 +649,20 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 0 25px;
   font-size: 18px;
   opacity: 0.75;
+}
+
+.blog_body {
+  position: absolute;
+  width: 70vw;
+  left: 15vw;
+  top: 20vh;
+}
+
+.blog_main {
+  background-image: url(./assets/img/back.jpg);
+  /* background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  margin-top: 0;
+  padding: 260px px 0 100px;
 }
