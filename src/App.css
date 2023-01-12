@@ -660,9 +660,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .blog_main {
   background-image: url(./assets/img/back.jpg);
-  /* background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover; */
   margin-top: 0;
   padding: 260px px 0 100px;
 }
