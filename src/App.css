@@ -650,16 +650,3 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 18px;
   opacity: 0.75;
 }
-
-.blog_body {
-  position: absolute;
-  width: 70vw;
-  left: 15vw;
-  top: 20vh;
-}
-
-.blog_main {
-  background-image: url(./assets/img/back.jpg);
-  margin-top: 0;
-  padding: 260px px 0 100px;
-}
