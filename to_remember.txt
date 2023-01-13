@@ -20,9 +20,7 @@ How to make a website with coding
 
 bugs and TODO:
 Newsletter responsiveness
-facebook and linkedin icon
-adding logo header and footer
-adding blog page
+favicon
 adding services page
-flicker on projects part tab 2 and tab 3
-Newsletter funcionality
+adding blog page
+facebook and linkedin icon
